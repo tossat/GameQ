@@ -45,5 +45,5 @@ class Sevendaystodie extends Source
      *
      * @type int
      */
-    protected $port_diff = 1;
+    protected $port_diff = 0;
 }
