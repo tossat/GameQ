@@ -363,7 +363,8 @@ class GameQ
             ksort($result);
 
             // Add the result to the results array
-            $results[$server->id()] = $result;
+//            $results[$server->id()] = $result;
+            $results[$server->id()] = $result['gq_online'] ? $result : null;
         }
 
         return $results;
