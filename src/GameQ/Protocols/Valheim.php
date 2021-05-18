@@ -2,7 +2,10 @@
 declare(strict_types=1);
 
 namespace GameQ\Protocols;
-
+/**
+ * Class Valheim
+ * @package GameQ\Protocols
+ */
 class Valheim extends Source {
     /**
      * String name of this protocol class
