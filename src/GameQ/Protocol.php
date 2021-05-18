@@ -80,21 +80,21 @@ abstract class Protocol
      *
      * @type string
      */
-    protected string $name = 'unknown';
+    protected $name = 'unknown';
 
     /**
      * The longer, fancier name for the protocol
      *
      * @type string
      */
-    protected string $name_long = 'unknown';
+    protected $name_long = 'unknown';
 
     /**
      * The difference between the client port and query port
      *
      * @type int
      */
-    protected int $port_diff = 0;
+    protected $port_diff = 0;
 
     /**
      * The transport method to use to actually send the data
