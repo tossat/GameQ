@@ -79,14 +79,14 @@ class Source extends Protocol
      *
      * @type string
      */
-    protected $name = 'source';
+    protected string $name = 'source';
 
     /**
      * Longer string name of this protocol class
      *
      * @type string
      */
-    protected $name_long = "Source Server";
+    protected string $name_long = "Source Server";
 
     /**
      * Define the Source engine type.  By default it is assumed to be Source
