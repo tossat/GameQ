@@ -42,10 +42,9 @@ class Arkse extends Source
     protected $name_long = "ARK: Survival Evolved";
 
     /**
-     * query_port = client_port + 19238
-     * 27015 = 7777 + 19238
+     * query_port = client_port
      *
      * @type int
      */
-    protected $port_diff = 19238;
+    protected $port_diff = 0;
 }
