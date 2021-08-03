@@ -20,11 +20,4 @@ class Valheim extends Source {
      * @type string
      */
     protected $name_long = "Valheim";
-
-    /**
-     * query_port = client_port + 1
-     *
-     * @type int
-     */
-    protected $port_diff = 1;
 }
